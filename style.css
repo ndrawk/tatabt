@@ -590,11 +590,6 @@ ul li {
   .card .card-info{
     align-items:flex-start;
     }
-
-  h1, h2, h3, p {
-    font-size: 20px;
-    line-height: 1.4;
-  }
 }
 
 @media screen and (min-width: 767px) and (max-width: 1024px) {
@@ -675,10 +670,5 @@ ul li {
 
   .footer-wrapper, .process-wrapper, .services-wrapper{
     flex-wrap: wrap;
-  }
-  
-  h1, h2, h3, p {
-    font-size: 18px;
-    line-height: 1.3;
   }
 }
