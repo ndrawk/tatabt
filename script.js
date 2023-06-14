@@ -26,6 +26,7 @@ menuItems.forEach(item => {
 });
 
 var swiper0 = new Swiper('.swiper0', {
+  cssMode: true,
   loop: true,
   autoplay: {
     delay: 3000, // Durasi tampilan setiap slide (ms)
@@ -41,6 +42,7 @@ var swiper0 = new Swiper('.swiper0', {
 });
 
 const swiper = new Swiper('.slider1', {
+  cssMode: true,
   slidesPerView: 2,
   spaceBetween: 20,
   loop: true,
@@ -66,6 +68,7 @@ const swiper = new Swiper('.slider1', {
 });
 
 const swiper2 = new Swiper('.slider2', {
+  cssMode: true,
   slidesPerView: 2,
   spaceBetween: 20,
   loop: true,
