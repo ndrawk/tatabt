@@ -8,12 +8,10 @@ menuToggle.addEventListener('click', function() {
 
 menuItems.forEach(item => {
   item.addEventListener('click', function(event) {
-    event.preventDefault(); // Mencegah aksi bawaan dari link
+    event.preventDefault();
 
-    // Mendapatkan target dari atribut href
     const target = document.querySelector(item.getAttribute('href'));
 
-    // Menggunakan scrollIntoView untuk melakukan scroll ke target
     target.scrollIntoView({
       behavior: 'smooth',
       block: 'start'
@@ -29,7 +27,7 @@ var swiper0 = new Swiper('.swiper0', {
   cssMode: true,
   loop: true,
   autoplay: {
-    delay: 3000, // Durasi tampilan setiap slide (ms)
+    delay: 3000,
   },
   navigation: {
     nextEl: '.swiper0 .swiper-button-next',
@@ -76,7 +74,6 @@ const swiper2 = new Swiper('.slider2', {
     nextEl: ".swiper2 .swiper-button-next",
     prevEl: ".swiper2 .swiper-button-prev",
   },
-  // Responsive breakpoints
   breakpoints: {
     960: {
       slidesPerView: 2,
